@@ -1,0 +1,34 @@
+
+
+.card {
+    top: 80%;
+    left: 24%;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6; /* Kenarların rengi */
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .card h3 {
+    color: rgb(196, 20, 20);
+    margin-bottom: 20px; /* Başlık ile liste arasına boşluk ekler */
+  }
+
+  .card ul {
+    list-style: none;
+    padding-left: 0; /* Liste içeriğinin sola yaslanmasını sağlar */
+  }
+
+  .card ul li {
+    margin-bottom: 10px; /* madde arası boşluklar */
+  }
+
+  .card ul li a {
+    color: #343a40;
+    text-decoration: none; /* Bağlantı alt çizgisini kaldırır */
+  }
+
+  .card ul li a:hover {
+    color: rgb(196, 20, 20);
+    text-decoration: underline; /* Linke fareyle gelince alt çizgi ekler */
+  }

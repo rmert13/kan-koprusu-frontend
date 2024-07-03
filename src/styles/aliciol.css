@@ -1,0 +1,196 @@
+.bold-label {
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 2rem;
+  font-weight: 400;
+  border-radius: .4rem;
+  cursor: pointer;
+  transition: all .5s;
+  width: 30rem;
+}
+
+.form-group {
+  margin-bottom: 1rem; /* Her form grubu arasına 1rem boşluk bırak */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px; /* Satırın sağ tarafındaki boşlukları kaldır */
+  margin-left: -5px; /* Satırın sol tarafındaki boşlukları kaldır */
+}
+
+.col-md-6 {
+  flex: 0 0 50%; /* Her sütunun genişliğini yarı yarıya ayarla */
+  max-width: 50%; /* Her sütunun maksimum genişliğini yarı yarıya ayarla */
+  padding-right: 5px; /* Sütunların sağ tarafındaki boşlukları kaldır */
+  padding-left: 5px; /* Sütunların sol tarafındaki boşlukları kaldır */
+}
+
+#gizlilik label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+}
+
+.alici-title {
+  text-align: center; /* Metni ortala */
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: black;
+  border-bottom: 2px solid #333;
+}
+
+.confirm-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  width: 300px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirm-box h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.confirm-box p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.start-button, .cancel-button, .confirm-button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button {
+  background-color: rgb(196, 20, 20);
+  color: #fff;
+}
+
+.start-button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Kutu gölgesi ekler */
+  background-color: firebrick;
+  color: #fff;
+}
+
+.cancel-button {
+  background-color: rgb(196, 20, 20);
+  color: #fff;
+}
+
+.cancel-button:hover {
+  background-color: #999999;
+}
+
+.confirm-button {
+  background-color: #208136;
+  color: #fff;
+}
+
+.confirm-button:hover {
+  background-color: firebrick;
+}
+
+.alici-ol-container {
+  margin: 100px auto;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.alici-ol-container h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.alici-ol-container p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.alici-ol-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.start-button, .confirm-button, .cancel-button {
+  margin: 10px;
+}
+
+.confirm-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-right: 100px;
+}
+
+/* aliciol.css */
+.alici-ol-container {
+  /* mevcut stiller */
+  position: relative;
+}
+
+.success-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.success-message p {
+  margin-bottom: 10px;
+}
+
+.success-message .close-button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.success-message .close-button:hover {
+  background-color: #45a049;
+}
+
+.donation-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.donation-description-container label {
+  display: block;
+  margin-bottom: 10px;
+}

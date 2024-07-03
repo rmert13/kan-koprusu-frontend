@@ -1,0 +1,32 @@
+.slideshow-container {
+  position: relative;
+  width: 100%; /* Sayfanın %90'ını kaplayacak */
+  max-width: 1200px; /* Konteynerin maksimum genişliği */
+  margin: 60px auto 10px; /* Üstten 50px boşluk olacak, diğer kenarlarda otomatik kenar boşluğu */
+}
+
+.each-slide-effect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto; /* Otomatik yükseklik */
+  max-height: 500px; /* Maksimum yükseklik */
+  overflow: hidden; /* Taşan kısımları gizle */
+}
+
+
+.each-slide-effect-inner {
+  width: 100%;
+  height: 500px; /* Slaytın yüksekliği */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.each-slide-effect img {
+  width: auto;
+  height: 100%; /* Slaytın yüksekliği */
+  max-width: 100%; /* Görüntünün maksimum genişliğini %100 olarak ayarlayın */
+  object-fit: cover; /* Görselin slayda tamamen sığmasını sağlar */
+}

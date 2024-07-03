@@ -1,0 +1,101 @@
+.container {
+  padding-top: 50px;
+}
+
+.title-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.filter-select {
+  margin: 0 10px; /* Filtre seçenekleri arasındaki boşluk */
+}
+
+.table-responsive {
+  max-height: 450px;
+  overflow-y: auto;
+  border: 1px solid #ccc; /* Tablo kenarlığı */
+  border-radius: 5px; /* Tablo köşe yuvarlama */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f8f9fa; /* Tablo başlığı arka plan rengi */
+  border-bottom: 2px solid #dee2e6; /* Tablo başlığı alt kenarlık */
+}
+
+.table tbody tr{
+  background-color: #f2f2f2; /* Çift satırlar arka plan rengi */
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef; /* Satır üzerine gelindiğinde arka plan rengi */
+}
+
+.form-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.finish-donation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Butonun yukarıdan boşluk bırakmasını sağlar */
+}
+
+.finish-donation .btn {
+  padding: 10px 20px; /* Butonun iç boşluklarını ayarlar */
+}
+
+/* Alert styles */
+.alert-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.alert-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert-box p {
+  margin-bottom: 20px;
+}
+
+.alert-box .btn {
+  padding: 10px 20px;
+}

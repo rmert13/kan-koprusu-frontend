@@ -1,0 +1,37 @@
+.accordion-button {
+    background-color: #f9f9f9;
+    color: rgb(196, 20, 20);
+    box-shadow: none !important;
+  }
+  
+  /* Açık durumdayken buton rengini değiştirmek için */
+  .accordion-button:not(.collapsed) {
+    background-color: rgb(196, 20, 20);
+    color: #f9f9f9;
+  }
+  
+  .accordion-collapse {
+    transition: max-height 0.2s ease;
+    overflow: hidden;
+    max-height: 0;
+  }
+  
+  .accordion-collapse.show {
+    max-height: 9999px; /* Değişiklik: Yüksek değer ekledim, içeriğin tamamını göstermek için */
+  }
+  
+
+  .custom-heading {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    border-bottom: 2px solid #333; /* Alt kenarlık */
+}
+
+.custom-div {
+    position: relative;
+    left: 15px;
+    top: 50px;
+    /* Diğer istediğiniz stiller */
+}
+

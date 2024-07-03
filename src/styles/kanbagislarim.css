@@ -1,0 +1,28 @@
+.custom-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 70px auto; /* Sayfanın ortasında olacak şekilde margin ayarı */
+    max-width: 700px; /* İçeriğin genişliğini kontrol etmek için maksimum genişlik ayarı */
+    padding-top: 20px;
+}
+
+.custom-heading {
+    text-align: center;
+    margin-top: 20px; /* Başlığı biraz üste taşıyın */
+    margin-bottom: 10px;
+    color: black;
+    border-bottom: 2px solid black; /* Alt kenarlık */
+}
+
+.custom-container p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.custom-container strong {
+    font-weight: bold;
+    color: #000;
+}

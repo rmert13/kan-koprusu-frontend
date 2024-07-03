@@ -1,0 +1,75 @@
+.girisyap {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #c1c1c1;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 25px;
+    font: 14px/130% 'Roboto', sans-serif;
+    background: #fff;
+}
+
+.girisyap .login {
+    width: 100%;
+}
+
+.girisyap .login .loginforgot {
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+}
+
+.girisyap .login .loginforgot a {
+    text-decoration: none;
+    color: #666;
+}
+
+.login h1 {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.loginbox {
+    margin-top: 10px;
+}
+
+.loginbox label {
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.loginbox input {
+    width: 100%;
+    padding: 15px 20px;
+    background: #f1f1f9;
+    border-radius: 18px;
+    border: 2px solid #c1c1c1;
+    outline: none;
+    transition: all .25s ease;
+}
+
+.loginbox input:focus {
+    border-color: #f04747;
+}
+
+.btn {
+    background: #f04747 !important;
+    color: #fff !important;
+    cursor: pointer;
+    border: 0 !important;
+    font-weight: bold;
+}
+
+.btn:hover {
+    box-shadow: 0 10px 30px 0 rgb(240 71 71 / 70%);
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

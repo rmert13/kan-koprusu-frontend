@@ -1,0 +1,33 @@
+.label {
+    text-align: left;
+}
+
+.input {
+    text-align: right;
+}
+
+#sifreYenileForm {
+    margin-top: 25%;
+    margin-left: 40%;
+}
+
+.custom-button {
+    margin-top: 1.3rem;
+    font-weight: 400;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: all .3s;
+    width: 15rem;
+    margin-left: 5px;
+}
+
+.description {
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    margin-top: 0.5rem;
+    margin-left: 20%;
+}

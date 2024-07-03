@@ -1,0 +1,106 @@
+.bilgilerim {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Arial', sans-serif; 
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-size: 24px; 
+    margin-bottom: 20px;
+}
+
+.profile {
+    width: 100%;
+    max-width: 450px; 
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    background-color: #fff; /* Arkaplan rengi beyaz yapıldı */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hafif bir gölge eklendi */
+}
+
+.profilebox {
+    margin-bottom: 20px;
+}
+
+.profilebox label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold; /* Yazı tipi kalınlaştırıldı */
+}
+
+.profilebox input,
+.profilebox select {
+    width: 100%;
+    padding: 10px; /* İçerik boşlukları artırıldı */
+    background: #f9f9f9; /* Daha yumuşak bir arkaplan rengi */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    font-size: 14px;
+}
+
+.profilebox input:focus,
+.profilebox select:focus {
+    border-color: #007bff; /* Fokus rengi değiştirildi */
+}
+
+.profilebox input[readonly],
+.profilebox select[readonly] {
+    background-color: #e9ecef; /* Okunabilir alanlar için arka plan rengi */
+    cursor: not-allowed; /* Okunabilir alanlar için imleç değiştirildi */
+}
+
+.profile-btn {
+    width: 100%; /* Butonu genişletiyoruz */
+    padding: 12px; /* İçerik boşlukları artırıldı */
+    background: #007bff; /* Buton rengi değiştirildi */
+    color: #fff;
+    cursor: pointer;
+    border: none; /* Kenarlık kaldırıldı */
+    border-radius: 5px; /* Kenarları yuvarlatıldı */
+    font-weight: bold;
+    font-size: 16px; /* Yazı boyutu büyütüldü */
+    transition: background 0.3s; /* Geçiş efekti eklendi */
+}
+
+.profile-btn:hover {
+    background: #0056b3; /* Hover rengi değiştirildi */
+    box-shadow: 0 4px 12px rgba(0, 91, 187, 0.3); /* Hover gölgesi eklendi */
+}
+
+.update-button-container {
+    display: flex;
+    justify-content: center;  /* İçeriği yatay olarak ortala */
+    margin-top: 20px;  /* Yukarıdan boşluk */
+}
+
+.update-button {
+    background-color: red;  /* Kırmızı arka plan rengi */
+    color: white;  /* Beyaz metin rengi */
+    padding: 10px 20px;  /* Dolgu alanı */
+    border: none;  /* Kenarlık yok */
+    border-radius: 5px;  /* Köşeleri yuvarla */
+    cursor: pointer;  /* İmleç tipi */
+    margin-left: 95px;  /* Butonu biraz sağa kaydır */
+}
+
+.update-button:hover {
+    background-color: darkred;  /* Hover durumunda koyu kırmızı */
+}
+
+.success-message {
+    color: green;  /* Yeşil renk */
+    margin-top: 10px;  /* Yukarıdan boşluk */
+}
+
+
